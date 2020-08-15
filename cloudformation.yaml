@@ -9,10 +9,10 @@ Parameters:
         Description: The name of the uploaded lambda function (must be go).
     SlackChannelID:
         Type: String
-        Description: The Slack channel ID, https://app.slack.com/client/<workspace_id>/<channel_id>
+        Description: The Slack channel ID, https://app.slack.com/client/T018X546ESE/C018GCQ55HD
     SlackOauthToken:
         Type: String
-        Description: The Slack Oauth token to allow posting to slack, from https://api.slack.com/apps/<some identifier>/oauth?
+        Description: The Slack Oauth token to allow posting to slack, from https://api.slack.com/apps/projectalava/oauth?
     Frequency:
         Type: String
         Default: rate(1 hour)
